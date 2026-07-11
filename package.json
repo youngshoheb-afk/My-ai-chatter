@@ -1,0 +1,24 @@
+{
+  "name": "s-ai-chatter-backend",
+  "version": "1.0.0",
+  "description": "Secure Middleman AI Server with Firebase Admin and Nvidia SDK by S-PROJECTS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "express",
+    "firebase-admin",
+    "openai",
+    "nvidia",
+    "s-projects"
+  ],
+  "author": "Shoheb",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "firebase-admin": "^12.1.0",
+    "openai": "^4.33.0"
+  }
+}
