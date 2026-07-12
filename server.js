@@ -15,7 +15,14 @@ admin.initializeApp({
 const app = express();
 const PORT = process.env.PORT || 50600;
 
-app.use(cors({ origin: ['https://my-ai-chater.s-projects.site', 'http://localhost:50600'] }));
+// S-PROJECTS STRICT CORS SECURITY
+app.use(cors({ 
+    origin: [
+        'https://my-ai-chater.s-projects.site', 
+        'http://localhost:50600',
+        'https://my-ai-chatter11.netlify.app' // <-- नया Netlify डोमेन यहाँ ऐड कर दिया है
+    ] 
+}));
 app.use(express.json());
 
 const openai = new OpenAI({
