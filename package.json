@@ -16,7 +16,7 @@
   "author": "Shoheb",
   "license": "ISC",
   "dependencies": {
-    "@google/genai": "^0.1.1",
+    "@google/generative-ai": "latest",
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "firebase-admin": "^12.1.0",
