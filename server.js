@@ -26,7 +26,7 @@ app.use(express.json());
 
 // Google Gemini API Initialize (Rock-Solid Stable Package)
 // Aapki di hui API Key yahan permanently set kar di gayi hai
-const aiKey = process.env.GEMINI_API_KEY || 'AQ.Ab8RN6IR3CGoh8-p4CqBghbpYXguBNYNpspQwu8g1EfnGkwX4Q';
+const aiKey = process.env.GEMINI_API_KEY || 'AQ.Ab8RN6J-ymvUTJHU1V29PN5Uj_jQBCuYIG60GgeboPFJyMDstA';
 const genAI = new GoogleGenerativeAI(aiKey);
 
 // Fast aur accurate response ke liye Gemini 1.5 Flash model
